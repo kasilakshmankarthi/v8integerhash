@@ -1,0 +1,14 @@
+aarch64
+---------
+
+/work/kasilka/bin/ndk21-arm64/aarch64-linux-android/bin/objdump -DwS obj/local/arm64-v8a/v8integerhash > ~/v8-analysis/v8integerhash/dump_crc_comments.S
+
+/sarc/spa/users/kasi.a/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/aarch64-linux-android/bin/objdump -DwS obj/local/arm64-v8a/v8integerhash > ~/v8-analysis/v8integerhash/dump_crc_comments.S
+
+/work/kasilka/bin/ndk21-arm64/aarch64-linux-android/bin/objdump -DwS binaries/v8integerhash.aarch64.elf > dump_crc_comments.S
+
+
+aarch32
+----------
+/work/kasilka/bin/ndk21-arm32/arm-linux-androideabi/bin/objdump -DwS binaries/v8integerhash.aarch32.elf > dump_crc_aarch32_comments.S
+
